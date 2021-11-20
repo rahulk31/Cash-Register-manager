@@ -4,9 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Cash Register Manager</title>
 </head>
 <body>
+    <div class="main-section">
+        <h1 class="heading">CASH REGISTER MANAGEMENT</h1>
+
+
+        <p>App that helps you minimise your manual transaction time.</p>
+
+
+        <div class="input-element">
+            <label for="bill">Enter Bill Amount: </label>
+            <input type="number" name="bill" id="bill" required>
+            <button class="btn">Next</button>
+        </div>
+
+
+        <div class="input-element hidden">
+            <label for="cash">Cash Given: </label>
+            <input type="number" name="cash" id="cash" required>
+            <button class="btn">Check</button>
+        </div>
+
+
+        <h3 class="message hidden">Change you need to return gh</h3>
+
+
+        <div class="overflow-table hidden">
+            <table>
+                <caption>Return Change</caption>
+                <tr>
+                    <th>Notes</th>
+                    <th>2000</th>
+                    <th>500</th>
+                    <th>200</th>
+                    <th>100</th>
+                    <th>50</th>
+                    <th>20</th>
+                    <th>10</th>
+                    <th>5</th>
+                    <th>2</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <td>Number</td>
+                    <td class="no-of-notes">0</td>
+                    <td class="no-of-notes">0</td>
+                    <td class="no-of-notes">0</td>
+                    <td class="no-of-notes">0</td>
+                    <td class="no-of-notes">0</td>
+                    <td class="no-of-notes">0</td>
+                    <td class="no-of-notes">0</td>
+                    <td class="no-of-notes">0</td>
+                    <td class="no-of-notes">0</td>
+                    <td class="no-of-notes">0</td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
     
 </body>
 </html>
