@@ -44,6 +44,7 @@ const checkHandler = () => {
         const changeRequired = cashPaid - billAmount;
         calculateChange(changeRequired);
         message.classList.remove('hidden');
+        message.classList.remove('red-border');
         message.classList.add('green-border');
         message.innerText = "This the minimum change you need to return 👇";
 
