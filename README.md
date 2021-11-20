@@ -7,4 +7,4 @@
 
 
 ### Live Link
-- 
+- https://cashregister-rahul.netlify.app/
